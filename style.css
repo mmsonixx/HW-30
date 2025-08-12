@@ -1,0 +1,33 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    animation-name: move__box;
+animation-duration: 5s;
+  animation-iteration-count: infinite; 
+
+}
+@keyframes move__box {
+    0% {
+background-color: rgb(129, 35, 54);
+transform: translateX(0%);
+    }
+    25% {
+background-color: rgb(39, 39, 110);
+transform: translateY(200px);
+    }
+    50% {
+background-color: gold;
+transform: translate(300px, 200px);
+    }
+    75% {
+background-color: greenyellow;
+transform: translate(300px, -5px);
+
+    }
+    100% {
+background-color: darkslateblue;
+transform: translate(-5px, 0px);
+
+    }
+}
